@@ -71,3 +71,27 @@ This project is a replica of the classic game "Battleship" implemented on an AVR
 - **Upload to Microcontroller**: Use an AVR programmer to upload the compiled code to the ATmega324A microcontroller.
 - **Connect the Hardware**: Assemble the circuit as per the wiring instructions in the project-specification file. Polulu was also used to connecty the microntroller to the computer via USB.
 - **Play the Game**: Use the push buttons and terminal to interact with the game.
+
+# Game of Life Simulation
+
+## Overview
+
+This project involves creating a simulation of John Conway's "Game of Life" (GoL) using Python. The Game of Life is a cellular automaton devised by mathematician John Conway. It consists of a grid of cells that evolve through iterations according to simple rules based on the states of neighboring cells. 
+
+## Features
+
+### Game of Life Simulation
+
+## Components
+
+- **Python Scripts**:
+  - `conway.py`: Core module containing the implementation of the Game of Life rules and pattern importation methods.
+  - `rle.py`: Module for reading and handling run length encoded (RLE) patterns.
+  - `test_gameoflife_glider_simple.py`: Script for testing basic GoL patterns with simple animation.
+  - `test_gameoflife_glider.py`: Script for testing GoL patterns with more complex animation.
+  - `test_gameoflife_turing.py`: Script for demonstrating the Turing completeness of GoL.
+
+- **Libraries Used**:
+  - `numpy`: For efficient numerical computations.
+  - `scipy`: For scientific and technical computing.
+  - `matplotlib`: For creating animations and visualizing the evolution of GoL patterns.
